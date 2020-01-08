@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "name": "Bolo Branco",
+      "username": "White Cake",
+      "image":"bolo_branco.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Bolo Branco detalhes Vermelho",
+      "username": "White Cake",
+      "image": "bolo_branco_verm.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Bolo de Oreo",
+      "username": "White Cake",
+      "image": "bolo_oreo.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Bolo para Viagem",
+      "username": "Cake togo",
+      "image": "bolo_delivery.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Cupcake Brigadeiro",
+      "username": "White Cake",
+      "image": "cupcake_brigadeiro.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Torta de Limao",
+      "username": "Torta",
+      "image": "tortinha_limao.jpg"
+    }
+  ]

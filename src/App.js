@@ -1,26 +1,42 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {Component } from 'react';
+
+import {CardList} from './components/card-list/card-list.component';
+import {SearchBox} from './components/search-box/search-box.component';
 import './App.css';
+import {Footer} from './components/footer/footer.component';
+import cakesJson from './cake';
+ 
+class App extends Component {
+  constructor(){
+    super();
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    this.state = {
+      cakes: cakesJson,
+      searchField:''
+    };
+
+  }
+
+  handleChange = (e) => {
+    this.setState({searchField: e.target.value});
+  };
+
+  render(){
+    const { cakes, searchField } = this.state;
+    const filteredCakes = cakes.filter(cake=> 
+      cake.name.toLowerCase().includes(searchField.toLocaleLowerCase())
+      );
+    return (
+      <div className="App">
+        <h1>Nat CakeDex</h1>
+        <SearchBox 
+          placeholder='Search Cake'
+          handleChange={this.handleChange}
+        />
+        <CardList cake={filteredCakes} />
+        <Footer />
+      </div>
+    );
+  }
 }
-
 export default App;
