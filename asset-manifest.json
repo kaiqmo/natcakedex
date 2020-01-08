@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/natcakedex/static/css/main.9fe52145.chunk.css",
+    "main.js": "/natcakedex/static/js/main.fcdf2bb1.chunk.js",
+    "main.js.map": "/natcakedex/static/js/main.fcdf2bb1.chunk.js.map",
+    "runtime-main.js": "/natcakedex/static/js/runtime-main.75cf402a.js",
+    "runtime-main.js.map": "/natcakedex/static/js/runtime-main.75cf402a.js.map",
+    "static/js/2.3e313a52.chunk.js": "/natcakedex/static/js/2.3e313a52.chunk.js",
+    "static/js/2.3e313a52.chunk.js.map": "/natcakedex/static/js/2.3e313a52.chunk.js.map",
+    "index.html": "/natcakedex/index.html",
+    "precache-manifest.7d924978864a1366a59ec2b4ab64ddd4.js": "/natcakedex/precache-manifest.7d924978864a1366a59ec2b4ab64ddd4.js",
+    "service-worker.js": "/natcakedex/service-worker.js",
+    "static/css/main.9fe52145.chunk.css.map": "/natcakedex/static/css/main.9fe52145.chunk.css.map",
+    "static/js/2.3e313a52.chunk.js.LICENSE": "/natcakedex/static/js/2.3e313a52.chunk.js.LICENSE",
+    "static/media/bolo_branco.jpg": "/natcakedex/static/media/bolo_branco.9c74e9a9.jpg",
+    "static/media/bolo_branco_verm.jpg": "/natcakedex/static/media/bolo_branco_verm.04bd7043.jpg",
+    "static/media/bolo_delivery.jpg": "/natcakedex/static/media/bolo_delivery.a9810192.jpg",
+    "static/media/bolo_oreo.jpg": "/natcakedex/static/media/bolo_oreo.dc9cf0e3.jpg",
+    "static/media/bolo_oreo2.jpg": "/natcakedex/static/media/bolo_oreo2.abc48995.jpg",
+    "static/media/bolo_rosa.jpg": "/natcakedex/static/media/bolo_rosa.4625c915.jpg",
+    "static/media/cupcake_branco.jpg": "/natcakedex/static/media/cupcake_branco.84fa478b.jpg",
+    "static/media/cupcake_brigadeiro.jpg": "/natcakedex/static/media/cupcake_brigadeiro.a45a9780.jpg",
+    "static/media/tortinha_limao.jpg": "/natcakedex/static/media/tortinha_limao.9c0ea2c5.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.75cf402a.js",
+    "static/js/2.3e313a52.chunk.js",
+    "static/css/main.9fe52145.chunk.css",
+    "static/js/main.fcdf2bb1.chunk.js"
+  ]
+}
